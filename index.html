@@ -1,0 +1,231 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+	<head>
+        <meta charset="utf-8">
+        <title>METAMASK Case Study</title>
+        <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/lightslider.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	</head>
+
+	<body>
+        <section>
+            <article class="article">
+                <div class="video component video-hero">
+                    <div class="component-content">
+                        <video src="images/large_2x.mp4" preload="auto" muted autoplay loop></video>
+                    </div>
+                </div>
+                <div class="article-header">
+                    <div class="pagetitle component">
+                        <div class="component-content">
+                            <h1 class="hero-headline">The Future for a Decentralized Wallet</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <div class="pagebody-copy">
+                            In this case study, I'll be offering my take on the future for a Decentralized Crypto Wallet, in comparison with the most popular one to this day: MetaMask. My process was guided by qualitative user research, MetaMask's current design, and my own intuition as a UX designer.
+                        </div>
+                        <h2 class="pagebody-header">Introduction</h2>
+                        <div class="pagebody-copy">
+                            As a designer who's highly interested in the world of crypto and web3, I soon came to the realization that there's a lot of room for improvement in the area of User Experience. Through design, I hope to help build the future of DeFi, in a way that facilitates everyone, including your grandma, to use SaaS applications without confussion or irritation.
+                        </div>
+                        <div class="pagebody-copy">
+                            However, the current stage of MetaMask, the #1 decentralized crypto wallet in the world, with over 30 million active users, has a lot to catch up to. 
+                        </div>
+                        <div class="pagebody-copy">
+                            I approached my redesign in two steps:
+                        </div>
+                        <div class="pagebody-copy">
+                            - Core Experience<br>- Visual Interface
+                        </div>
+                        <h2 class="pagebody-header">1. Core Experience</h2>
+                        <div class="pagebody-copy">
+                            One of the biggest problems with MetaMask's current infrastructure is the way information and actions are nested and organized. Most of the critical information is hidden under buttons and drop-downs that make browsing through your assets insufferable.
+                        </div>
+                        <div class="pagebody-copy">
+                            While it makes sense to consolidate information on a mobile application/website due to the more restricted real estate area, an expanded desktop web app has more room for functionality and usability.
+                        </div>
+                        <div class="pagebody-copy">
+                            MetaMask has two main window views:
+                        </div>
+                        <div class="pagebody-copy">
+                            - The minimized pop-up window<br>- The full-width expanded window
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-two-windows"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                This is what MetaMask's expanded and minimized windows look like.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <div class="pagebody-copy">
+                            However, there's absolutely no difference between the two. The full-width expanded window has a lot of available white space that would allow for great improvements in usability.
+                        </div>
+                        <div class="pagebody-copy">
+                            Here's my take on optimizing the core experience. Starting with...
+                        </div>
+                        <h3 class="pagebody-subheader">Networks & Tokens</h3>
+                        <div class="pagebody-copy">
+                            Ethereum Mainnet is displayed as the default network, along with the tokens you own within that network. Say you want to see any Binance tokens you own. You'd first have to switch networks by clicking on <em>Ethereum Mainnet</em>, pulling a drop-down menu, and selecting the right network — in this case: Binance.
+                        </div>
+                        <div class="pagebody-copy">
+                            Currently there is no way to see all of your tokens at once. Every single one is hidden under each network, which you have to browse individually, every single time.
+                        </div>
+                        <div class="pagebody-copy">
+                            Why though? Wouldn't it be helpful to display all your tokens within a specific account in one place, neatly categorized in "network folders"?
+                        </div>
+                        <div class="pagebody-copy">
+                            To begin resolving this, I chose to display all the tokens the user owns in a specific account in one place, each categorized under its corresponding network. These "network folders" can be folded or minimized to save space, and stay organized.
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <div class="pagebody-copy">
+                            In addition, I added a cell containing the total value of tokens in each network folder, as well as a link to each network's block explorer (e.g. Etherscan).
+                        </div>
+                        <div class="pagebody-copy">
+                            I also got rid of the "import tokens" button, as the wallet should really import all tokens automatically, saving the users time.
+                        </div>
+                        <h3 class="pagebody-subheader">Connected Sites</h3>
+                        <div class="pagebody-copy">
+                            Allowing the users to disconnect their MetaMask wallet from an external site is a very important feature, as it serves as a way to avoid any security bridges. This important feature however, is completely hidden under a confusing three-dot menu button which contains the option to navigate to "Connected Sites". With this kind of nested navigation, it seems like it would be quite easy to forget to disconnect from any external sites and get potentially hacked by any external security bridge.
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-connected"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                An always-visible menu to disconnect from external sites helps the user minimize risks.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <div class="pagebody-copy">
+                            My solution to this problem was to design and incorporate a "Connected Sites" section to the actual site, where it's always visible and therefore serves as a better reminder to the user to disconnect from any external sites.
+                        </div>
+                        <h3 class="pagebody-subheader">User Accounts & Main Actions</h3>
+                        <div class="pagebody-copy">
+                            MetaMask's main actions are all under the weird-looking profile picture at the top right corner.
+                        </div>
+                        <div class="pagebody-copy">
+                            These features are:
+                        </div>
+                        <div class="pagebody-copy">
+                            - User accounts<br>- Create account<br>- Connect to hardware wallet<br>- Support Settings
+                        </div>
+                        <div class="pagebody-copy">
+                            Once again, these could all come out of their nest, taking advantage of the extra space of the expanded window, and therefore being more accessible to the user.
+                        </div>
+                        <div class="pagebody-copy">
+                            Here's the result:
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-main_menu"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <h3 class="pagebody-subheader">Receive Tokens</h3>
+                        <div class="pagebody-copy">
+                            Whenever users wants to receive tokens from someone else, they have to either copy their address under their Account Name, or go to the, once again, confusing three-dot menu button>Account Details and copying it from there. This approach might be fine for most mid-to-advanced users, but shouldn't we strive to accomodate as many users as possible? Including our grandmas, yes. Say your grandma (or even you) wants to receive coins from someone else. The word receive seems to be the key word here. Why not keep it? That way your grandma (and you) can be fully happy and fulfilled.
+                        </div>
+                        <div class="pagebody-copy">
+                            This is why I chose to add a "Receive" button next to the other account actions (e.g. Buy, Send, etc.) This addition provides clarity and ease of use for the user.
+                        </div>
+                        <h3 class="pagebody-subheader">Display Currency</h3>
+                        <div class="pagebody-copy">
+                            After conducting some user testing, I received a ton of feedback on how convenient it would be to be able to change the display currency directly from the main page. Some users might prefer to see ETH/USD, some HEX/EUR.
+                        </div>
+                        <div class="pagebody-copy">
+                            My solution was to incorporate a simple yet effective currency-switch menu. And this is what it looks like:
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <h3 class="pagebody-subheader">Overview</h3>
+                        <div class="pagebody-copy">
+                            And last but not least, I added an Overview page, which esentially serves as a Home page. Here, the user will be able to see the total balance of all accounts combined, as well as their latest transactions.
+                        </div>
+                        <h2 class="pagebody-header">2. Visual Interface</h2>
+                        <h3 class="pagebody-subheader">Glyphs</h3>
+                        <div class="pagebody-copy">
+                            This is why I chose to add a "Receive" button next to the other account actions (e.g. Buy, Send, etc.) This addition provides clarity and ease of use for the user.
+                        </div>
+                        <h3 class="pagebody-subheader">Display Currency</h3>
+                        <div class="pagebody-copy">
+                            After conducting some user testing, I received a ton of feedback on how convenient it would be to be able to change the display currency directly from the main page. Some users might prefer to see ETH/USD, some HEX/EUR.
+                        </div>
+                        <div class="pagebody-copy">
+                            My solution was to incorporate a simple yet effective currency-switch menu. And this is what it looks like:
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+
+
+	<script>
+		$('#lightSlider, #lightSlider2').lightSlider({
+		    gallery: false,
+		    item: 1,
+		    loop: true,
+		    slideMargin: 0,
+		    thumbItem: 0,
+            speed: 800,
+            useCSS: true,
+            cssEasing: 'ease',
+            mode: 'fade',
+            enableDrag: false,
+            galleryMargin: 15
+		});
+	</script>
+	</body>
+</html>
