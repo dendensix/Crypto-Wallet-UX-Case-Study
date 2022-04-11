@@ -13,11 +13,23 @@
 	<body>
         <section>
             <article class="article">
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-hero"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                Redesigned from the ground up. An all-new wallet for the future.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---
                 <div class="video component video-hero">
                     <div class="component-content">
                         <video src="images/large_2x.mp4" preload="auto" muted autoplay loop></video>
                     </div>
                 </div>
+                -->
                 <div class="article-header">
                     <div class="pagetitle component">
                         <div class="component-content">
@@ -41,20 +53,20 @@
                             I approached my redesign in two steps:
                         </div>
                         <div class="pagebody-copy">
-                            - Core Experience<br>- Visual Interface
+                            <b>- Core Experience<br>- Visual Interface</b>
                         </div>
                         <h2 class="pagebody-header">1. Core Experience</h2>
                         <div class="pagebody-copy">
                             One of the biggest problems with MetaMask's current infrastructure is the way information and actions are nested and organized. Most of the critical information is hidden under buttons and drop-downs that make browsing through your assets insufferable.
                         </div>
                         <div class="pagebody-copy">
-                            While it makes sense to consolidate information on a mobile application/website due to the more restricted real estate area, an expanded desktop web app has more room for functionality and usability.
+                            <b>While it makes sense to consolidate information on a mobile application or website due to the more restricted real estate area, an expanded desktop web app has more room for improved functionality and usability.</b>
                         </div>
                         <div class="pagebody-copy">
                             MetaMask has two main window views:
                         </div>
                         <div class="pagebody-copy">
-                            - The minimized pop-up window<br>- The full-width expanded window
+                            <b>- The minimized pop-up window<br>- The full-width expanded window</b>
                         </div>
                     </div>
                 </div>
@@ -74,29 +86,29 @@
                             However, there's absolutely no difference between the two. The full-width expanded window has a lot of available white space that would allow for great improvements in usability.
                         </div>
                         <div class="pagebody-copy">
-                            Here's my take on optimizing the core experience. Starting with...
+                            Here's my take on how to optimize the core experience. Starting with...
                         </div>
                         <h3 class="pagebody-subheader">Networks & Tokens</h3>
                         <div class="pagebody-copy">
-                            Ethereum Mainnet is displayed as the default network, along with the tokens you own within that network. Say you want to see any Binance tokens you own. You'd first have to switch networks by clicking on <em>Ethereum Mainnet</em>, pulling a drop-down menu, and selecting the right network — in this case: Binance.
+                            <em>Ethereum Mainnet</em> is displayed as the default network, along with the tokens you own within that network. Say you want to see any Binance tokens you own. You'd first have to switch networks by clicking on <em>Ethereum Mainnet</em>, pulling a drop-down menu, and selecting the right network — in this case: Binance.
                         </div>
                         <div class="pagebody-copy">
-                            Currently there is no way to see all of your tokens at once. Every single one is hidden under each network, which you have to browse individually, every single time.
+                            Currently, there is no way to see all of your tokens at once. Every single one is hidden under each network, which you have to browse individually, every single time. Why though?
                         </div>
                         <div class="pagebody-copy">
-                            Why though? Wouldn't it be helpful to display all your tokens within a specific account in one place, neatly categorized in "network folders"?
+                            <span class="copy-highlight">Wouldn't it be helpful to display all your tokens within a specific account in one place, neatly categorized in "network folders"?</span>
                         </div>
                         <div class="pagebody-copy">
-                            To begin resolving this, I chose to display all the tokens the user owns in a specific account in one place, each categorized under its corresponding network. These "network folders" can be folded or minimized to save space, and stay organized.
+                            That's exactly what I did. I chose to display all the tokens the user owns in a specific account in one place, each categorized under its corresponding network. These <em>network folders</em> can be folded or minimized to save space, and stay organized.
                         </div>
                     </div>
                 </div>
                 <div class="pagebody text component">
                     <div class="component-content">
-                        <figure class="article-image"></figure>
+                        <figure class="article-image-folders"></figure>
                         <div class="image-description">
                             <div class="image-caption">
-                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                                Doesn't it look tidy? All tokens are contained within each Network Folder.
                             </div>
                         </div>
                     </div>
@@ -138,7 +150,7 @@
                             These features are:
                         </div>
                         <div class="pagebody-copy">
-                            - User accounts<br>- Create account<br>- Connect to hardware wallet<br>- Support Settings
+                            - User accounts<br>- Create account<br>- Connect to hardware wallet<br>- Support<br>- Settings
                         </div>
                         <div class="pagebody-copy">
                             Once again, these could all come out of their nest, taking advantage of the extra space of the expanded window, and therefore being more accessible to the user.
@@ -153,7 +165,7 @@
                         <figure class="article-image-main_menu"></figure>
                         <div class="image-description">
                             <div class="image-caption">
-                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                                This neat left menu panel is always accessible. Before, these features were all hidden under an ugly and confusing user profile picture.
                             </div>
                         </div>
                     </div>
@@ -162,26 +174,40 @@
                     <div class="component-content">
                         <h3 class="pagebody-subheader">Receive Tokens</h3>
                         <div class="pagebody-copy">
-                            Whenever users wants to receive tokens from someone else, they have to either copy their address under their Account Name, or go to the, once again, confusing three-dot menu button>Account Details and copying it from there. This approach might be fine for most mid-to-advanced users, but shouldn't we strive to accomodate as many users as possible? Including our grandmas, yes. Say your grandma (or even you) wants to receive coins from someone else. The word receive seems to be the key word here. Why not keep it? That way your grandma (and you) can be fully happy and fulfilled.
+                            Whenever users wants to receive tokens from someone else, they have to either copy their address under their <em>Account Name</em>, or go to the, once again, <em>confusing three-dot menu button > Account Details</em> and copying it from there. This approach might be fine for most mid-to-advanced users, but shouldn't we strive to accomodate as many users as possible? Including our grandmas, yes. Say your grandma (or even you) wants to receive coins from someone else... the word receive seems to be the key word here. Why not keep it? That way your grandma (and you) can be fully happy and fulfilled.
                         </div>
                         <div class="pagebody-copy">
                             This is why I chose to add a "Receive" button next to the other account actions (e.g. Buy, Send, etc.) This addition provides clarity and ease of use for the user.
-                        </div>
-                        <h3 class="pagebody-subheader">Display Currency</h3>
-                        <div class="pagebody-copy">
-                            After conducting some user testing, I received a ton of feedback on how convenient it would be to be able to change the display currency directly from the main page. Some users might prefer to see ETH/USD, some HEX/EUR.
-                        </div>
-                        <div class="pagebody-copy">
-                            My solution was to incorporate a simple yet effective currency-switch menu. And this is what it looks like:
                         </div>
                     </div>
                 </div>
                 <div class="pagebody text component">
                     <div class="component-content">
-                        <figure class="article-image"></figure>
+                        <figure class="article-image-receive"></figure>
                         <div class="image-description">
                             <div class="image-caption">
-                                Inside of the store, customers can explore new products Inside of the store, customers can explore new products. Inside of the store, customers can explore new products.
+                                Click on <em>Receive</em> anytime you want to <em></em>Receive</em> any coins ;)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <h3 class="pagebody-subheader">Display Currency</h3>
+                        <div class="pagebody-copy">
+                            After conducting some user testing, I received a ton of feedback on how convenient it would be to be able to change the display currency directly from the main page. Some users might prefer to see ETH/USD, some HEX/EUR.
+                        </div>
+                        <div class="pagebody-copy">
+                            My solution was to incorporate a simple yet effective currency-switch drop-down menu. And this is what it looks like:
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-currency"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                Simply click on the currency you want to change and you'll be able to pick any other from a drop-down list of currencies.
                             </div>
                         </div>
                     </div>

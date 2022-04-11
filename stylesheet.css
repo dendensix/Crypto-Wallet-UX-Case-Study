@@ -64,7 +64,7 @@ video{
     font-size: 19px;
     line-height: 1.5681;
     font-weight: 400;
-    letter-spacing: .013em;
+    letter-spacing: .011em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #111;
 }
@@ -111,6 +111,28 @@ video{
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.copy-highlight{
+    font-size: 28px;
+    line-height: 1.46667;
+    font-weight: 400;
+    letter-spacing: -.0015em;
+    font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #757575;
+    margin-bottom: 16px;
+    margin-top: 3.14em;
+}
+
+.article-image-hero{
+    background-image: url(images/hero_mm_sh_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
 .article-image{
     background-image: url(images/hero_mm_sh_2x.jpg);
     width: 980px;
@@ -145,7 +167,7 @@ video{
 }
 
 .article-image-main_menu{
-    background-image: url(images/mm_main_menu_2x.jpg);
+    background-image: url(images/mm_main_menu_panel_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -154,6 +176,40 @@ video{
     left: 50%;
     margin-left: -490px;
 }
+
+.article-image-folders{
+    background-image: url(images/mm_folders_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.article-image-receive{
+    background-image: url(images/mm_receive_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.article-image-currency{
+    background-image: url(images/mm_currency_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
 
 
 
@@ -339,10 +395,10 @@ p, h1, h2, h3, h4, h5, h6{
 
 @media only screen and (max-width: 1068px){
     .pagebody{
-        font-size: 17px;
-        line-height: 1.47059;
+        font-size: 18px;
+        line-height: 1.57059;
         font-weight: 400;
-        letter-spacing: -.022em;
+        letter-spacing: .001em;
         font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: #111;
     }
@@ -438,14 +494,38 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 
-@media only screen and (max-width: 735px){
+@media only screen and (max-width: 734px){
     .pagebody{
-        font-size: 17px;
-        line-height: 1.47059;
+        font-size: 18px;
+        line-height: 1.67059;
         font-weight: 400;
-        letter-spacing: -.022em;
+        letter-spacing: .001em;
         font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: #111;
+    }
+
+    .pagebody-copy{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+
+    .pagebody-header{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+
+    .hero-headline{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+
+    .pagebody-subheader{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
     }
 
     .component{
