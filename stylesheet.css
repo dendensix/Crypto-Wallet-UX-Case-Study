@@ -510,16 +510,18 @@ p, h1, h2, h3, h4, h5, h6{
         width: 87.5%;
     }
 
-    .pagebody-header{
-        margin-left: auto;
-        margin-right: auto;
-        width: 87.5%;
-    }
-
     .hero-headline{
         margin-left: auto;
         margin-right: auto;
         width: 87.5%;
+
+        font-size: 36px;
+        line-height: 1.08349;
+        font-weight: 700;
+        letter-spacing: -.003em;
+        font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #111;
+        margin-top: 70px;
     }
 
     .pagebody-subheader{
