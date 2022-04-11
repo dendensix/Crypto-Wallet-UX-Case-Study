@@ -510,6 +510,18 @@ p, h1, h2, h3, h4, h5, h6{
         width: 87.5%;
     }
 
+    .pagetitle{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+
+    .pagebody-header{
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+
     .hero-headline{
         margin-left: auto;
         margin-right: auto;
