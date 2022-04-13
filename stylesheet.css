@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     direction: ltr;
     text-align: left;
@@ -16,6 +17,12 @@ body{
     font-family: 'Colfax';
     src: url('Colfax-Medium.woff') format('woff');
     font-weight: 500;
+}
+
+@font-face{
+    font-family: 'BradfordLLWeb';
+    src: url('BradfordLLWeb-Regular.woff') format('woff');
+    font-weight: 400;
 }
 
 .pagetitle.component{
@@ -38,7 +45,7 @@ body{
     font-weight: 700;
     letter-spacing: -.003em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #111;
+    color: #1d1d1f;
     margin-top: 70px;
 }
 
@@ -66,7 +73,7 @@ video{
     font-weight: 400;
     letter-spacing: .011em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #111;
+    color: #1d1d1f;
 }
 
 .pagebody-copy{
@@ -80,7 +87,7 @@ video{
     font-weight: 700;
     letter-spacing: .009em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #111;
+    color: #247CFF;
     margin-bottom: 16px;
     margin-top: 3.14em;
 }
@@ -91,7 +98,7 @@ video{
     font-weight: 700;
     letter-spacing: .009em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #111;
+    color: #247CFF;
     margin-bottom: 16px;
     margin-top: 3.14em;
 }
@@ -115,9 +122,9 @@ video{
     font-size: 28px;
     line-height: 1.46667;
     font-weight: 400;
-    letter-spacing: -.0015em;
+    letter-spacing: -.0016em;
     font-family: 'Colfax','Archivo', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #757575;
+    color: #86868b;
     margin-bottom: 16px;
     margin-top: 3.14em;
 }
@@ -133,19 +140,8 @@ video{
     margin-left: -490px;
 }
 
-.article-image{
-    background-image: url(images/hero_mm_sh_2x.jpg);
-    width: 980px;
-    height: 551px;
-    background-size: 980px 551px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 50%;
-    margin-left: -490px;
-}
-
 .article-image-two-windows{
-    background-image: url(images/mm_two_windows_2_2x.jpg);
+    background-image: url(images/mm_two_windows_3_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -167,7 +163,7 @@ video{
 }
 
 .article-image-main_menu{
-    background-image: url(images/mm_main_menu_panel_2x.jpg);
+    background-image: url(images/mm_main_menu_panel_2_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -200,7 +196,7 @@ video{
 }
 
 .article-image-currency{
-    background-image: url(images/mm_currency_2x.jpg);
+    background-image: url(images/mm_currency_drop_down_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
