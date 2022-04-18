@@ -33,21 +33,14 @@
                 <div class="article-header">
                     <div class="pagebody text component">
                         <div class="component-content">
-                            <h1 class="hero-headline">The Future for a Decentralized Wallet</h1>
+                            <h1 class="hero-headline">Why MetaMask's UI/UX Sucks and How to Fix It </h1>
                         </div>
                     </div>
                 </div>
                 <div class="pagebody text component">
                     <div class="component-content">
                         <div class="pagebody-copy">
-                            In this case study, I'll be offering my take on the future for a Decentralized Crypto Wallet, in comparison with the most popular one to this day: MetaMask. My process was guided by qualitative user research, MetaMask's current design, and my own intuition as a UX designer.
-                        </div>
-                        <h2 class="pagebody-header">Introduction</h2>
-                        <div class="pagebody-copy">
-                            As a designer who's highly interested in the world of crypto and web3, I soon came to the realization that there's a lot of room for improvement in the area of User Experience. Through design, I hope to help build the future of DeFi, in a way that facilitates everyone, including your grandma, to use SaaS applications without confussion or irritation.
-                        </div>
-                        <div class="pagebody-copy">
-                            However, the current stage of MetaMask, the #1 decentralized crypto wallet in the world, with over 30 million active users, has a lot to catch up to. 
+                            MetaMask is the most popular EVM DeFi Wallet with over 30 million users, and yet it's no hidden secret everyone thinks its UI/UX sucks. If we want to onboard the world, we need to do better. This case study explores the tip of the iceberg of things Metamask's UI/UX is getting wrong, and my solutions on how to fix them.
                         </div>
                         <div class="pagebody-copy">
                             I approached my redesign in two steps:
@@ -57,7 +50,7 @@
                         </div>
                         <h2 class="pagebody-header">1. Core Experience</h2>
                         <div class="pagebody-copy">
-                            One of the biggest problems with MetaMask's current infrastructure is the way information and actions are nested and organized. Most of the critical information is hidden under buttons and drop-downs that make browsing through your assets insufferable.
+                            One of the biggest problems with MetaMask's current infrastructure is the way information and actions are nested and organized. Most of the critical information is hidden under buttons and drop-downs that make browsing through your assets very confusing.
                         </div>
                         <div class="pagebody-copy">
                             <b>While it makes sense to consolidate information on a mobile application or website due to the more restricted real estate area, an expanded desktop web app has more room for improved functionality and usability.</b>
@@ -90,10 +83,19 @@
                         </div>
                         <h3 class="pagebody-subheader">Networks & Tokens</h3>
                         <div class="pagebody-copy">
-                            <em>Ethereum Mainnet</em> is displayed as the default network, along with the tokens you own within that network. Say you want to see any Binance tokens you own. You'd first have to switch networks by clicking on <em>Ethereum Mainnet</em>, pulling a drop-down menu, and selecting the right network — in this case: Binance.
+                            <em>Ethereum Mainnet</em> is displayed as the default network, along with the tokens you own within that network. Say you want to see any Binance tokens you own. You'd first have to switch networks by clicking on <em>Ethereum Mainnet</em>, pulling a drop-down menu, and selecting the right network — in this case: Binance Smart Chain.
                         </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-networks"></figure>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
                         <div class="pagebody-copy">
-                            Currently, there is no way to see all of your tokens at once. Every single one is hidden under each network, which you have to browse individually, every single time. Why though?
+                            Currently, there is no way to see all your tokens at once. Every single one is hidden under each network, which you have to browse individually, every single time. Why though?
                         </div>
                         <div class="pagebody-copy">
                             <span class="copy-highlight">Wouldn't it be helpful to display all your tokens within a specific account in one place, neatly categorized in "network folders"?</span>
@@ -108,7 +110,7 @@
                         <figure class="article-image-folders"></figure>
                         <div class="image-description">
                             <div class="image-caption">
-                                Doesn't it look tidy? All tokens are contained within each Network Folder.
+                                Doesn't it look tidy? All tokens are contained within each network folder.
                             </div>
                         </div>
                     </div>
@@ -119,7 +121,7 @@
                             In addition, I added a cell containing the total value of tokens in each network folder, as well as a link to each network's block explorer (e.g. Etherscan).
                         </div>
                         <div class="pagebody-copy">
-                            I also got rid of the "import tokens" button, as the wallet should really import all tokens automatically, saving the users time.
+                            I also got rid of the "import tokens" button, as the wallet should really import all tokens automatically through a block explorer scraper or an API that can find the corresponding tokens and add them from a whitelist the app has, saving the users time.
                         </div>
                         <h3 class="pagebody-subheader">Connected Sites</h3>
                         <div class="pagebody-copy">
@@ -144,7 +146,7 @@
                         </div>
                         <h3 class="pagebody-subheader">User Accounts & Main Actions</h3>
                         <div class="pagebody-copy">
-                            MetaMask's main actions are all under the weird-looking profile picture at the top right corner.
+                            MetaMask's main actions are all under a randomly generated user profile picture at the top right corner.
                         </div>
                         <div class="pagebody-copy">
                             These features are:
@@ -165,7 +167,7 @@
                         <figure class="article-image-main_menu"></figure>
                         <div class="image-description">
                             <div class="image-caption">
-                                This neat left menu panel is always accessible. Before, these features were all hidden under an ugly and confusing user profile picture.
+                                This neat left menu panel is always accessible. Before, these features were all hidden.
                             </div>
                         </div>
                     </div>
@@ -174,7 +176,29 @@
                     <div class="component-content">
                         <h3 class="pagebody-subheader">Receive Tokens</h3>
                         <div class="pagebody-copy">
-                            Whenever users wants to receive tokens from someone else, they have to either copy their address under their <em>Account Name</em>, or go to the, once again, <em>confusing three-dot menu button > Account Details</em> and copying it from there. This approach might be fine for most mid-to-advanced users, but shouldn't we strive to accomodate as many users as possible? Including our grandmas, yes. Say your grandma (or even you) wants to receive coins from someone else... the word receive seems to be the key word here. Why not keep it? That way your grandma (and you) can be fully happy and fulfilled.
+                            Whenever users want to receive tokens from someone else, they have to either copy their address under their <em>Account Name</em>, or go to the, once again, <em>confusing three-dot menu button > Account Details</em> and copying it from there.
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-old-receive-1"></figure>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <figure class="article-image-old-receive-2"></figure>
+                        <div class="image-description">
+                            <div class="image-caption">
+                                This neat left menu panel is always accessible. Before, these features were all hidden under an ugly and confusing user profile picture.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagebody text component">
+                    <div class="component-content">
+                        <div class="pagebody-copy">
+                            This approach might be fine for most mid-to-advanced users, but shouldn't we strive to accomodate as many users as possible? Including our grandmas, yes. Say your grandma (or even you) wants to receive coins from someone else... the word <em>receive</em> seems to be the key word here. Why not keep it?
                         </div>
                         <div class="pagebody-copy">
                             This is why I chose to add a "Receive" button next to the other account actions (e.g. Buy, Send, etc.) This addition provides clarity and ease of use for the user.

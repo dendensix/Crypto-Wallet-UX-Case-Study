@@ -130,7 +130,7 @@ video{
 }
 
 .article-image-hero{
-    background-image: url(images/hero_mm_sh_2x.jpg);
+    background-image: url(images/hero_mm_sh_2_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -174,7 +174,7 @@ video{
 }
 
 .article-image-folders{
-    background-image: url(images/mm_folders_2x.jpg);
+    background-image: url(images/mm_folders_2_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -185,7 +185,7 @@ video{
 }
 
 .article-image-receive{
-    background-image: url(images/mm_receive_2x.jpg);
+    background-image: url(images/mm_receive_2_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -196,7 +196,7 @@ video{
 }
 
 .article-image-currency{
-    background-image: url(images/mm_currency_drop_down_2x.jpg);
+    background-image: url(images/mm_currency_drop_down_2_2x.jpg);
     width: 980px;
     height: 551px;
     background-size: 980px 551px;
@@ -206,6 +206,39 @@ video{
     margin-left: -490px;
 }
 
+.article-image-old-receive-1{
+    background-image: url(images/mm_old_receive_1_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.article-image-old-receive-2{
+    background-image: url(images/mm_old_receive_2_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+    margin-top: -90px;
+}
+
+.article-image-networks{
+    background-image: url(images/mm_network_2x.jpg);
+    width: 980px;
+    height: 551px;
+    background-size: 980px 551px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
 
 
 
